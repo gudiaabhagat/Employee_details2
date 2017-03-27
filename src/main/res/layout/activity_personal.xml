@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_personal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newpinkblue"
+    tools:context="com.example.dell.employee_details.PersonalD">
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#bffeadac"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Employee Name"
+            android:textColor="#583c87"
+            android:textSize="30dp"
+            android:id="@+id/User_id" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Date of Birth"
+            android:textColor="#583c87"
+            android:textSize="30dp"
+            android:id="@+id/dob_id" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Father's Name"
+            android:textColor="#583c87"
+            android:textSize="30dp"
+            android:id="@+id/Father_id" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Mother's Name"
+            android:textColor="#583c87"
+            android:textSize="30dp"
+            android:id="@+id/Mother_id" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Married/Unmarried"
+            android:textColor="#583c87"
+            android:textSize="30dp"
+            android:id="@+id/M_status" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:padding="5dp"
+            android:text="Spouse Name"
+            android:textColor="#583c87"
+            android:textSize="30dp"
+            android:id="@+id/Spouse_id" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:padding="5dp"
+            android:text="Address"
+            android:textColor="#583c87"
+            android:textSize="30dp"
+            android:id="@+id/Spouse_id" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:padding="5dp"
+            android:text="Contact"
+            android:textColor="#583c87"
+            android:textSize="30dp"
+            android:id="@+id/Spouse_id" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
